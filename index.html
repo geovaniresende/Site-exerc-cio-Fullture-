@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Waso Strategy</title>
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <span><img src="images/clock-icon.png" alt="Clock Icon" class="icon"> Mon-Fri 10:00-18:00</span>
+            <span><img src="images/phone-icon.png" alt="Phone Icon" class="icon"> 240-480-9600</span>
+            <div class="social-icons">
+                <a href="#"><img src="images/pinterest-icon.png" alt="Pinterest"></a>
+                <a href="#"><img src="images/facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="images/twitter-icon.png" alt="Twitter"></a>
+                <a href="#"><img src="images/youtube-icon.png" alt="YouTube"></a>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <h1 class="logo"><span class="waso">Waso</span> <span class="strategy">Strategy</span></h1>
+            <div class="menu-icon">☰ Menu</div>
+            <nav>
+                <a href="#" class="menu-item">
+                    <span class="menu-count">01</span> Home
+                </a>
+                <a href="#" class="menu-item">
+                    <span class="menu-count">02</span> About
+                </a>
+                <a href="#" class="menu-item">
+                    <span class="menu-count">03</span> Services
+                </a>
+                <a href="#" class="menu-item">
+                    <span class="menu-count">04</span> Projects
+                </a>
+                <a href="#" class="menu-item">
+                    <span class="menu-count">05</span> Contact
+                </a>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="hero-text">
+            <p class="intro">Introducing Waso Strategy <span class="highlight">01/05</span></p>
+            <h2>Explore <span class="highlight">new ideas</span> <br> for <span class="break">your business</span></h2>
+            <button class="get-started">Get Started</button>
+        </div>
+    </section>
+    
+    <section class="services">
+        <div class="services-header">
+            <p class="intro">Services <span class="highlight">03/05</span></p>
+            <h2>How can we help you?</h2>
+        </div>
+        <div class="services-content">
+            <div class="service-list">
+                <div class="service-item">
+                    <div class="service-bar"></div>
+                    <a href="#">Business Consulting</a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-bar"></div>
+                    <a href="#">Strategy Planning</a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-bar"></div>
+                    <a href="#">Video Content</a>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="service-description">
+                <img src="images/consulting-image.jpg" alt="Consulting">
+                <h3><b>Introduction to Business Consulting</b></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolore</p>
+                <ul>
+                    <li>Helping small businesses</li>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Business Strategy and Management</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section class="projects">
+        <p class="projects-intro">Projects <span class="highlight">04/05</span></p>
+        <h2>Brands we've crafted so far</h2>
+        <div class="project-list">
+            <div class="project-item">
+                <img src="images/mcl-group.jpg" alt="MCL Group">
+                <div class="project-info">
+                    <h3>MCL Group</h3>
+                    <button class="arrow-btn">→</button>
+                </div>
+            </div>
+            <div class="project-item">
+                <img src="images/fredi.jpg" alt="Fredi">
+                <div class="project-info">
+                    <h3>Fredi</h3>
+                    <button class="arrow-btn">→</button>
+                </div>
+            </div>
+            <div class="project-item">
+                <img src="images/banana.jpg" alt="Banana">
+                <div class="project-info">
+                    <h3>Banana</h3>
+                    <button class="arrow-btn">→</button>
+                </div>
+            </div>
+            <div class="project-item project-wide">
+                <img src="images/conference.jpg" alt="Conference">
+                <div class="project-info">
+                    <h3>Conference</h3>
+                    <button class="arrow-btn">→</button>
+                </div>
+            </div>
+            <div class="project-item">
+                <img src="images/maldon.jpg" alt="Maldon">
+                <div class="project-info">
+                    <h3>Maldon</h3>
+                    <button class="arrow-btn">→</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>© 2024 Waso Strategy Co., Ltd.</p>
+        <div class="footer-social-links">
+            <a href="#"><img src="images/pinterest-icon.png" alt="Pinterest"></a>
+            <a href="#"><img src="images/facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="images/twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="images/youtube-icon.png" alt="YouTube"></a>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.menu-icon').addEventListener('click', function() {
+            const nav = document.querySelector('nav');
+            nav.classList.toggle('open');
+        });
+    </script>
+</body>
+</html>

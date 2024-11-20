@@ -1,0 +1,387 @@
+/* CSS existente */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.top-bar {
+    background-color: #f1c40f;
+    color: black;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.top-bar span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+.social-icons a img {
+    width: 20px;
+    height: 20px;
+}
+
+.bottom-bar {
+    background-color: white;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #f1c40f;
+    width: 100%;
+}
+
+.logo .waso {
+    color: #f1c40f;
+}
+
+.logo .strategy {
+    color: #c0392b;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('images/hero-bg.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 100px 20px;
+    text-align: left;
+    position: relative;
+}
+
+.hero-text {
+    max-width: 600px;
+    position: relative;
+}
+
+.hero-text .intro {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.hero-text h2 {
+    font-size: 48px;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.hero-text .highlight {
+    color: #f1c40f;
+}
+
+.hero-text .break {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.get-started {
+    background-color: #c0392b;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.services {
+    padding: 50px 20px;
+    background-color: #f7f7f7;
+    text-align: left;
+}
+
+.services-header {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.services-header .intro {
+    font-size: 12px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.services-header .intro .highlight {
+    color: #f1c40f;
+}
+
+.services-header h2 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.services-content {
+    display: flex;
+    justify-content: center;
+}
+
+.service-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60%;
+}
+
+.service-item {
+    background-color: #f7f7f7;
+    padding: 20px;
+    position: relative;
+    border-left: 5px solid black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.service-item a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.service-item:hover {
+    background-color: white;
+    color: black;
+}
+
+.service-item:hover .service-bar {
+    background-color: red;
+}
+
+.service-bar {
+    height: 100%;
+    width: 5px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.service-description {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+}
+
+.service-description img {
+    width: 100%;
+    height: auto;
+}
+
+.projects {
+    padding: 50px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.projects .projects-intro {
+    font-size: 12px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.projects .projects-intro .highlight {
+    color: #f1c40f;
+}
+
+.projects h2 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.projects .highlight {
+    color: #f1c40f;
+}
+
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.project-item {
+    position: relative;
+    width: calc(33.333% - 13.333px);
+    overflow: hidden;
+}
+
+.project-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-wide {
+    width: calc(66.666% - 13.333px);
+    height: 200px;
+}
+
+footer {
+    background-color: #f1c40f;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-social-links a img {
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .top-bar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .top-bar span {
+        flex: 1;
+        text-align: center;
+    }
+
+    .top-bar .social-icons {
+        display: flex;
+        gap: 10px;
+    }
+
+    .bottom-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    nav a {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .menu-item {
+        position: relative;
+    }
+
+    .menu-count {
+        font-size: 12px;
+        font-weight: bold;
+        color: #f1c40f;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    .get-started {
+        display: block;
+        margin: 20px auto;
+    }
+
+    .project-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-item {
+        width: 100%;
+    }
+
+    .project-item img {
+        height: auto;
+    }
+
+    .services-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-list {
+        width: 100%;
+    }
+
+    .service-description {
+        width: 100%;
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 769px) {
+    .menu-count {
+        display: none;
+    }
+    
+    .menu-icon {
+        display: none; /* Ocultar ícone de menu em desktops */
+    }
+
+    .top-bar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
